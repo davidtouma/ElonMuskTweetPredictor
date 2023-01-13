@@ -22,6 +22,8 @@ With the twitter API, we created a script that scrapes tweets and also process t
 
 By using the platform Modal (visit https://modal.com/), we can deploy our script online and specify in the script to scrape four tweets and insert them to our data storage in Hopsworks. This process can be found in the script modal_script.py'
 
+The test_modal_script.py script, was used as an initial test when exploring how to deploy scripts to modal. It is a simple script that prints the data we have scraped from Twitter
+
 
 # Step 3 - Fine Tuning a GPT-2 model for text generation/Huggingface
 ....
