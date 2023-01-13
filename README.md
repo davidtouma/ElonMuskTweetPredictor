@@ -14,6 +14,8 @@ As previously mentioned, we got our historical data from https://www.kaggle.com/
 
 In the notebook CleanElonTweetDataNotebook.ipynb, a step by step "tutorial" is done so that you can get an intuiton of what was done when cleaning the data. If you do not want to use it you can look at the other notebook feature_engineering_scripts_notebook.ipynb. There I define two functions that do the same thing I did in the first notebook and then upload it to our feature store in Hopsworks
 
+The script feature_engineering_script.py, is a script that uploads the data to Hopswork's feature store
+
 # Step 2 - Finding live data.
 
 For the second task, this project looks into using live data, to extend our dataset but also be used later for our machine learning application. For this, we were granted access to the Twitter API, which we then could use to scrape tweets and other relevant data. 
