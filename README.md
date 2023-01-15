@@ -35,7 +35,7 @@ To make use of our live data that we find in step 2, we created a script that wi
 
 
 # Step 5 - UI using Huggingface
-For the final step, we will use a Huggingface space to showcase our results (from step 4). We create a simple UI that shows three different images, one of the original tweet by Elon Musk that was scraped by our Modal app, one for the generated tweet that used the first two words from the original tweet, and finally, an image of a randomly generated tweet using an empty prompt as input. 
+For the final step, we will use a Huggingface space to showcase our results (from step 4). We create a simple UI that shows three different images, one of the original tweet by Elon Musk that was scraped by our Modal app, one for the generated tweet that used the first two words from the original tweet, and finally, an image of a randomly generated tweet using an empty prompt as input. The images are created using a function that can be found in the gradioapp.ipynb notebook. It simply uses the images in the Image folder to create the Twitter icons, and uses the arial.ttf file to create the font. Make sure to upload them to the notebook or else you will recieve an error when running the code. 
 
 The app can be found here https://huggingface.co/spaces/davidt123/Elon_Musk_Tweet_Generator_With_GPT-2 
 !!!NOTE!!! Connection error that I am not sure how to solve (same issue in lab 1 - titanic app)
