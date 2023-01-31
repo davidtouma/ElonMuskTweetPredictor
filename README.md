@@ -6,6 +6,8 @@ Our machine learning application will try to fine tune a GPT-2 model for a text 
 
 In this repository you will find both notebooks and python scripts. The purpose of this is to use the notebook as "tutorials" while the scripts do not include much text but can be used quickly.
 
+![Generated tweets by our model and the real tweet by Elon Musk](./gpt2proj.png)
+
 # Step 1 - Handling historical data
 
 As previously mentioned, we got our historical data from https://www.kaggle.com/datasets/ayhmrba/elon-musk-tweets-2010-2021. The files from this website can be found in the folder "Uncleaned Elon Data".
@@ -45,5 +47,7 @@ However, the app can be shown in the notebook gradioapp.ipynb and it works as it
 To be able to use some of the scripts, you will need to have access to different API keys, such as four different keys from the Twitter API, an API key from Hopsworks,  an access token from Huggingface, and generate a token from Modal.
 
 You will only need a GPU when fine tuning the model (Step 3). GPU is not needed for all the other steps.
+
+
 
 
