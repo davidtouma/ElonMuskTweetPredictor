@@ -6,7 +6,7 @@ Our machine learning application will try to fine tune a GPT-2 model for a text 
 
 In this repository you will find both notebooks and python scripts. The purpose of this is to use the notebook as "tutorials" while the scripts do not include much text but can be used quickly.
 
-![Generated tweets by our model and the real tweet by Elon Musk](./gpt2proj.png)
+![Alt text](./gpt2proj.png)
 
 # Step 1 - Handling historical data
 
